@@ -1,0 +1,234 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:2:1-36:12
+MERGED from [com.google.android.material:material:1.1.0-alpha03] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha03.aar/bd6e8221bfc072b789850d4deb6c4a41/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha01.aar/2afb33c6b108b12cdd3c56cee25a480b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/e4d8729e1348d9441934635444252efc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/939e1d1ef1d02868d304b097dfeaa088/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.1.0-alpha02.aar/723907b451ceff044f6cc6fe0f4bc720/AndroidManifest.xml:17:1-25:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/154ebe00573e61e0a5c89b20f5fae148/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0-alpha02.aar/726349fa784c180fbace044dc9035271/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/6f96decf3c2014343bcaf3a62e0ca743/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/919f2be9bc63acaa8cd49dbd82a37d53/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/a833e239049858d1a1fd80efaed47cfa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/2691a4d64639ac16cc1a53ca3b1820f8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/6338bc2d92cd98a6971c66a68fcd6a7d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0-alpha01.aar/391ae1eb5fd754871cea132919cb172d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0-alpha01.aar/4e148a584c0f9bb793560759d62c903e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0-alpha01.aar/ee9067ede51ed35e41c6ab53e20561b9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/transition-1.0.1.aar/eac69aa6f10b6b3dc576e01b973131fe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/504309f131fb0771b58e61cb12f30771/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/272007600cb2a45a396b03bc4a133c04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/activity-1.0.0-alpha02.aar/d7e898a6c3d8445bbed9d819747050f0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/f9158256200a01186c75074c6b31058a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/2082da7d446fd82929daba1f1dcc52a2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/da46623c198a05ce47940da929bd4216/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/b39341d49586955b8176de9de6282708/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha03.aar/d350b606af99ad63a94cf7379ec44ec6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/5ab3de7e898ab595ace8cd2032e7e923/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/f032e5fb60294449aba9064c7ab296ed/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/32a8b96bb8f537eb91f279d342ef39e0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.1.0-alpha02.aar/c17030c606dd8abb2684e65d84ccef22/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.1.0-alpha02.aar/63a04869acf468427d361948be02d327/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0-alpha02.aar/2d4c8353ed9aa7ac36246b5b8573b74f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.1.0-alpha02.aar/03d788cd9278f085d4f657b2aa7ad300/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.1.0-alpha02.aar/6b9ed6f1faacd02e16497113c4fcb7ec/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.1-alpha01.aar/63354177cd6f633fa2c9a50a27c2eb07/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0-alpha02.aar/a1e5c52e9b4bc76a198973ff4f540bd1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/df567db9a4c9bbd10a867273e59b5f77/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/124f0a980e951017f672dcc1c78499a8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/6978762e4813b351438927fd7a7d890c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/ee6601cfe0de4fd184eb4ede523e1bc6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/7a231b11e7ab9ad0efeb26b28af9afe0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:7:5-34:19
+MERGED from [com.google.android.material:material:1.1.0-alpha03] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha03.aar/bd6e8221bfc072b789850d4deb6c4a41/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha03] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha03.aar/bd6e8221bfc072b789850d4deb6c4a41/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/939e1d1ef1d02868d304b097dfeaa088/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/939e1d1ef1d02868d304b097dfeaa088/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.1.0-alpha02.aar/723907b451ceff044f6cc6fe0f4bc720/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.1.0-alpha02.aar/723907b451ceff044f6cc6fe0f4bc720/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/154ebe00573e61e0a5c89b20f5fae148/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/154ebe00573e61e0a5c89b20f5fae148/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha03.aar/d350b606af99ad63a94cf7379ec44ec6/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha03.aar/d350b606af99ad63a94cf7379ec44ec6/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/5ab3de7e898ab595ace8cd2032e7e923/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/5ab3de7e898ab595ace8cd2032e7e923/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.1.0-alpha02.aar/c17030c606dd8abb2684e65d84ccef22/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.1.0-alpha02.aar/c17030c606dd8abb2684e65d84ccef22/AndroidManifest.xml:22:5-28:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/7a231b11e7ab9ad0efeb26b28af9afe0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/7a231b11e7ab9ad0efeb26b28af9afe0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-alpha03] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha03.aar/d350b606af99ad63a94cf7379ec44ec6/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:12:9-40
+activity#com.jldubz.gistaviewer.ui.MainActivity
+ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:13:9-27:20
+	android:label
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:15:13-56
+	android:launchMode
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:17:13-43
+	android:icon
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:16:13-47
+	android:theme
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:18:13-53
+	android:name
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:14:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:22:27-74
+intent-filter#action:name:android.intent.action.VIEW
+ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:24:13-26:29
+action#android.intent.action.VIEW
+ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:25:25-66
+activity#com.jldubz.gistaviewer.ui.gists.GistActivity
+ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:28:9-33:20
+	android:parentActivityName
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:30:13-80
+	android:icon
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml:29:13-72
+uses-sdk
+INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha03] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha03.aar/bd6e8221bfc072b789850d4deb6c4a41/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha03] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha03.aar/bd6e8221bfc072b789850d4deb6c4a41/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha01.aar/2afb33c6b108b12cdd3c56cee25a480b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha01.aar/2afb33c6b108b12cdd3c56cee25a480b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/e4d8729e1348d9441934635444252efc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/e4d8729e1348d9441934635444252efc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/939e1d1ef1d02868d304b097dfeaa088/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/939e1d1ef1d02868d304b097dfeaa088/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.1.0-alpha02.aar/723907b451ceff044f6cc6fe0f4bc720/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.1.0-alpha02.aar/723907b451ceff044f6cc6fe0f4bc720/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/154ebe00573e61e0a5c89b20f5fae148/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.8.0.aar/154ebe00573e61e0a5c89b20f5fae148/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0-alpha02.aar/726349fa784c180fbace044dc9035271/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0-alpha02.aar/726349fa784c180fbace044dc9035271/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/6f96decf3c2014343bcaf3a62e0ca743/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/6f96decf3c2014343bcaf3a62e0ca743/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/919f2be9bc63acaa8cd49dbd82a37d53/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/919f2be9bc63acaa8cd49dbd82a37d53/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/a833e239049858d1a1fd80efaed47cfa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/a833e239049858d1a1fd80efaed47cfa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/2691a4d64639ac16cc1a53ca3b1820f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/2691a4d64639ac16cc1a53ca3b1820f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/6338bc2d92cd98a6971c66a68fcd6a7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/6338bc2d92cd98a6971c66a68fcd6a7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0-alpha01.aar/391ae1eb5fd754871cea132919cb172d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0-alpha01.aar/391ae1eb5fd754871cea132919cb172d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0-alpha01.aar/4e148a584c0f9bb793560759d62c903e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0-alpha01.aar/4e148a584c0f9bb793560759d62c903e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0-alpha01.aar/ee9067ede51ed35e41c6ab53e20561b9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0-alpha01.aar/ee9067ede51ed35e41c6ab53e20561b9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/transition-1.0.1.aar/eac69aa6f10b6b3dc576e01b973131fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/transition-1.0.1.aar/eac69aa6f10b6b3dc576e01b973131fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/504309f131fb0771b58e61cb12f30771/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/504309f131fb0771b58e61cb12f30771/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/272007600cb2a45a396b03bc4a133c04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/272007600cb2a45a396b03bc4a133c04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/activity-1.0.0-alpha02.aar/d7e898a6c3d8445bbed9d819747050f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/activity-1.0.0-alpha02.aar/d7e898a6c3d8445bbed9d819747050f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/f9158256200a01186c75074c6b31058a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/f9158256200a01186c75074c6b31058a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/2082da7d446fd82929daba1f1dcc52a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/2082da7d446fd82929daba1f1dcc52a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/da46623c198a05ce47940da929bd4216/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/da46623c198a05ce47940da929bd4216/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/b39341d49586955b8176de9de6282708/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/b39341d49586955b8176de9de6282708/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha03.aar/d350b606af99ad63a94cf7379ec44ec6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha03.aar/d350b606af99ad63a94cf7379ec44ec6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/5ab3de7e898ab595ace8cd2032e7e923/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/5ab3de7e898ab595ace8cd2032e7e923/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/f032e5fb60294449aba9064c7ab296ed/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/f032e5fb60294449aba9064c7ab296ed/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/32a8b96bb8f537eb91f279d342ef39e0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/32a8b96bb8f537eb91f279d342ef39e0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.1.0-alpha02.aar/c17030c606dd8abb2684e65d84ccef22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.1.0-alpha02.aar/c17030c606dd8abb2684e65d84ccef22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.1.0-alpha02.aar/63a04869acf468427d361948be02d327/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.1.0-alpha02.aar/63a04869acf468427d361948be02d327/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0-alpha02.aar/2d4c8353ed9aa7ac36246b5b8573b74f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0-alpha02.aar/2d4c8353ed9aa7ac36246b5b8573b74f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.1.0-alpha02.aar/03d788cd9278f085d4f657b2aa7ad300/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.1.0-alpha02.aar/03d788cd9278f085d4f657b2aa7ad300/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.1.0-alpha02.aar/6b9ed6f1faacd02e16497113c4fcb7ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.1.0-alpha02.aar/6b9ed6f1faacd02e16497113c4fcb7ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.1-alpha01.aar/63354177cd6f633fa2c9a50a27c2eb07/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1-alpha01] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.1-alpha01.aar/63354177cd6f633fa2c9a50a27c2eb07/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0-alpha02.aar/a1e5c52e9b4bc76a198973ff4f540bd1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0-alpha02.aar/a1e5c52e9b4bc76a198973ff4f540bd1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/df567db9a4c9bbd10a867273e59b5f77/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/df567db9a4c9bbd10a867273e59b5f77/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/124f0a980e951017f672dcc1c78499a8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/124f0a980e951017f672dcc1c78499a8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/6978762e4813b351438927fd7a7d890c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/6978762e4813b351438927fd7a7d890c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/ee6601cfe0de4fd184eb4ede523e1bc6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/ee6601cfe0de4fd184eb4ede523e1bc6/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/7a231b11e7ab9ad0efeb26b28af9afe0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.8.0.aar/7a231b11e7ab9ad0efeb26b28af9afe0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sgeetha2/Downloads/Ex_Files_Android_Development_RetroFit/Exercise Files/02_02_begin/GistAViewer/app/src/main/AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.1.0-alpha02.aar/c17030c606dd8abb2684e65d84ccef22/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.1.0-alpha02.aar/c17030c606dd8abb2684e65d84ccef22/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.1.0-alpha02.aar/c17030c606dd8abb2684e65d84ccef22/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.1.0-alpha02.aar/c17030c606dd8abb2684e65d84ccef22/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0-alpha02] /Users/sgeetha2/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.1.0-alpha02.aar/c17030c606dd8abb2684e65d84ccef22/AndroidManifest.xml:24:13-79
