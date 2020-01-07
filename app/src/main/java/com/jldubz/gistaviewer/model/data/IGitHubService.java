@@ -6,6 +6,7 @@ import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
+import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public interface IGitHubService {
@@ -19,5 +20,8 @@ public interface IGitHubService {
 
     @GET("/gists/starred")
     Call<List<Gist>> getStarredGists(@Query("page") int pageNum);
+
+    @GET("/gists/{gistId}")
+    Call<Gist> getGistById(@Path("gistId") String gistId);
 
 }
