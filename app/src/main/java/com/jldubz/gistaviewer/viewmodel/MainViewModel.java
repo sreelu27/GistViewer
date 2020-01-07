@@ -3,6 +3,7 @@ package com.jldubz.gistaviewer.viewmodel;
 import android.view.View;
 
 import com.jldubz.gistaviewer.model.Constants;
+import com.jldubz.gistaviewer.model.NetworkUtil;
 import com.jldubz.gistaviewer.model.data.IGitHubService;
 import com.jldubz.gistaviewer.model.gists.Gist;
 import com.jldubz.gistaviewer.model.GitHubUser;
@@ -182,7 +183,8 @@ public class MainViewModel extends ViewModel {
             @Override
             public void onResponse(Call<List<Gist>> call, retrofit2.Response<List<Gist>> response) {
                 if(!response.isSuccessful()){
-                    showError(response.message());
+                    //showError(response.message());
+                    showError(NetworkUtil.onGitHubResponseError(response));
                     return;
                 }
                 if(response.body()!=null){
@@ -192,7 +194,7 @@ public class MainViewModel extends ViewModel {
 
             @Override
             public void onFailure(Call<List<Gist>> call, Throwable t) {
-
+                showError(t.getLocalizedMessage());
             }
         });
     }
@@ -222,7 +224,8 @@ public class MainViewModel extends ViewModel {
             @Override
             public void onResponse(Call<List<Gist>> call, retrofit2.Response<List<Gist>> response) {
                 if(!response.isSuccessful()){
-                    showError(response.message());
+                    //showError(response.message());
+                    showError(NetworkUtil.onGitHubResponseError(response));
                     return;
                 }
                 if(response.body()!=null){
@@ -232,7 +235,7 @@ public class MainViewModel extends ViewModel {
 
             @Override
             public void onFailure(Call<List<Gist>> call, Throwable t) {
-
+                showError(t.getLocalizedMessage());
             }
         });
     }
@@ -267,7 +270,8 @@ public class MainViewModel extends ViewModel {
             @Override
             public void onResponse(Call<List<Gist>> call, retrofit2.Response<List<Gist>> response) {
                 if(!response.isSuccessful()){
-                    showError(response.message());
+                    //showError(response.message());
+                    showError(NetworkUtil.onGitHubResponseError(response));
                     return;
                 }
                 if(response.body()!=null){
@@ -277,7 +281,7 @@ public class MainViewModel extends ViewModel {
 
             @Override
             public void onFailure(Call<List<Gist>> call, Throwable t) {
-
+                showError(t.getLocalizedMessage());
             }
         });
 

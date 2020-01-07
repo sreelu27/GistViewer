@@ -4,11 +4,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5a38bbe-3e50-4e68-8eb6-c4ced0399108" name="Default Changelist" comment="GET method">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/data/IGitHubService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="c5a38bbe-3e50-4e68-8eb6-c4ced0399108" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/NetworkUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/viewmodel/MainViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/viewmodel/MainViewModel.java" afterDir="false" />
     </list>
@@ -31,16 +28,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/viewmodel/MainViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+            <state relative-caret-position="3045">
+              <caret line="237" column="49" selection-start-line="237" selection-start-column="49" selection-end-line="237" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/NetworkUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="34" column="101" selection-start-line="34" selection-start-column="101" selection-end-line="34" selection-end-column="101" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/data/IGitHubService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -57,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,7 +75,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/data-model-update" />
+        <entry key="$PROJECT_DIR$" value="feature/api-interface" />
       </map>
     </option>
   </component>
@@ -77,8 +86,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/gists/Gist.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/GitHubUser.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/gists/GistComment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/viewmodel/MainViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/data/IGitHubService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/NetworkUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/viewmodel/MainViewModel.java" />
       </list>
     </option>
   </component>
@@ -119,22 +129,6 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="gistaviewer" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GistAViewer" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="gistaviewer" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GistAViewer" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="gistaviewer" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="gists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GistAViewer" type="1abcf292:AndroidViewProjectNode" />
@@ -281,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578318945245</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="GET method">
+      <created>1578395958664</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578395958664</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -317,7 +318,8 @@
     <MESSAGE value="Git data model" />
     <MESSAGE value="GitHubUser data model" />
     <MESSAGE value="GitComment data model updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="GitComment data model updated" />
+    <MESSAGE value="GET method" />
+    <option name="LAST_COMMIT_MESSAGE" value="GET method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/gists/GistFile.java">
@@ -446,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/viewmodel/MainViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/data/IGitHubService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -460,6 +455,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/model/NetworkUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="34" column="101" selection-start-line="34" selection-start-column="101" selection-end-line="34" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jldubz/gistaviewer/viewmodel/MainViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="237" column="49" selection-start-line="237" selection-start-column="49" selection-end-line="237" selection-end-column="49" />
         </state>
       </provider>
     </entry>
