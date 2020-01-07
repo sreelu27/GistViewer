@@ -3,6 +3,7 @@ package com.jldubz.gistaviewer.viewmodel;
 import android.view.View;
 
 import com.jldubz.gistaviewer.model.Constants;
+import com.jldubz.gistaviewer.model.data.IGitHubService;
 import com.jldubz.gistaviewer.model.gists.Gist;
 import com.jldubz.gistaviewer.model.GitHubUser;
 
@@ -11,6 +12,12 @@ import java.util.List;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import okhttp3.Response;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
  * ViewModel that handles business logic for Gist fragments DiscoverGistsFragment, StarGistsFragment, and YourGistsFragment and
@@ -45,6 +52,7 @@ public class MainViewModel extends ViewModel {
     private boolean mMoreYourGistsAvailable = true;
     private boolean mMoreStarredGistsAvailable = true;
     private boolean mIsLoggedIn;
+    private IGitHubService mGitHubService;
 
     public MainViewModel() {
         super();
@@ -76,7 +84,11 @@ public class MainViewModel extends ViewModel {
      */
     private void initAnonService() {
 
+        Retrofit retrofit = new Retrofit.Builder().baseUrl(Constants.URL_GITHUB) //https://github.com
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
 
+        mGitHubService = retrofit.create(IGitHubService.class);
     }
 
     //region Profile
@@ -166,7 +178,23 @@ public class MainViewModel extends ViewModel {
      */
     public void discoverMoreGists() {
 
+        mGitHubService.getPublicGists().enqueue(new Callback<List<Gist>>() {
+            @Override
+            public void onResponse(Call<List<Gist>> call, retrofit2.Response<List<Gist>> response) {
+                if(!response.isSuccessful()){
+                    showError(response.message());
+                    return;
+                }
+                if(response.body()!=null){
+                    mDiscoveredGists.postValue(response.body());
+                }
+            }
 
+            @Override
+            public void onFailure(Call<List<Gist>> call, Throwable t) {
+
+            }
+        });
     }
 
     public LiveData<List<Gist>> getDiscoveredGists() {
@@ -190,7 +218,23 @@ public class MainViewModel extends ViewModel {
      */
     public void loadMoreStarredGists() {
 
+        mGitHubService.getStarredGists().enqueue(new Callback<List<Gist>>() {
+            @Override
+            public void onResponse(Call<List<Gist>> call, retrofit2.Response<List<Gist>> response) {
+                if(!response.isSuccessful()){
+                    showError(response.message());
+                    return;
+                }
+                if(response.body()!=null){
+                    mStarredGists.postValue(response.body());
+                }
+            }
 
+            @Override
+            public void onFailure(Call<List<Gist>> call, Throwable t) {
+
+            }
+        });
     }
 
     public LiveData<List<Gist>> getStarredGists() {
@@ -218,6 +262,24 @@ public class MainViewModel extends ViewModel {
             showError(Constants.NEED_LOGIN_ERROR);
             return;
         }
+
+        mGitHubService.getYourGists().enqueue(new Callback<List<Gist>>() {
+            @Override
+            public void onResponse(Call<List<Gist>> call, retrofit2.Response<List<Gist>> response) {
+                if(!response.isSuccessful()){
+                    showError(response.message());
+                    return;
+                }
+                if(response.body()!=null){
+                    mYourGists.postValue(response.body());
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<Gist>> call, Throwable t) {
+
+            }
+        });
 
 
     }
