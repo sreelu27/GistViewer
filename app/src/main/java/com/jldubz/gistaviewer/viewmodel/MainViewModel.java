@@ -8,13 +8,14 @@ import com.jldubz.gistaviewer.model.data.IGitHubService;
 import com.jldubz.gistaviewer.model.gists.Gist;
 import com.jldubz.gistaviewer.model.GitHubUser;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import okhttp3.Response;
+import retrofit2.Response;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Retrofit;
@@ -179,7 +180,7 @@ public class MainViewModel extends ViewModel {
      */
     public void discoverMoreGists() {
 
-        mGitHubService.getPublicGists().enqueue(new Callback<List<Gist>>() {
+        mGitHubService.getPublicGists(mGistPagesLoaded + 1).enqueue(new Callback<List<Gist>>() {
             @Override
             public void onResponse(Call<List<Gist>> call, retrofit2.Response<List<Gist>> response) {
                 if(!response.isSuccessful()){
@@ -187,9 +188,19 @@ public class MainViewModel extends ViewModel {
                     showError(NetworkUtil.onGitHubResponseError(response));
                     return;
                 }
-                if(response.body()!=null){
-                    mDiscoveredGists.postValue(response.body());
+
+                mGistPagesLoaded++;
+                mMoreDiscoveredGistsAvailable= isNextLinkAvailable(response);
+
+                List<Gist> currentList = mDiscoveredGists.getValue();
+                if(currentList==null){
+                    currentList = new ArrayList<>();
                 }
+                if(response.body()!=null){
+                    currentList.addAll(response.body());
+                    //mDiscoveredGists.postValue(response.body());
+                }
+                mDiscoveredGists.postValue(currentList);
             }
 
             @Override
@@ -220,7 +231,7 @@ public class MainViewModel extends ViewModel {
      */
     public void loadMoreStarredGists() {
 
-        mGitHubService.getStarredGists().enqueue(new Callback<List<Gist>>() {
+        mGitHubService.getStarredGists(mStarredGistsPagesLoaded + 1).enqueue(new Callback<List<Gist>>() {
             @Override
             public void onResponse(Call<List<Gist>> call, retrofit2.Response<List<Gist>> response) {
                 if(!response.isSuccessful()){
@@ -228,9 +239,19 @@ public class MainViewModel extends ViewModel {
                     showError(NetworkUtil.onGitHubResponseError(response));
                     return;
                 }
-                if(response.body()!=null){
-                    mStarredGists.postValue(response.body());
+                mStarredGistsPagesLoaded++;
+                mMoreStarredGistsAvailable = isNextLinkAvailable(response);
+
+                List<Gist> currentList = mStarredGists.getValue();
+                if(currentList==null){
+                    currentList = new ArrayList<>();
                 }
+                if(response.body()!=null){
+                    currentList.addAll(response.body());
+                    //mDiscoveredGists.postValue(response.body());
+                }
+                mStarredGists.postValue(currentList);
+
             }
 
             @Override
@@ -266,7 +287,7 @@ public class MainViewModel extends ViewModel {
             return;
         }
 
-        mGitHubService.getYourGists().enqueue(new Callback<List<Gist>>() {
+        mGitHubService.getYourGists(mYourGistsPagesLoaded + 1).enqueue(new Callback<List<Gist>>() {
             @Override
             public void onResponse(Call<List<Gist>> call, retrofit2.Response<List<Gist>> response) {
                 if(!response.isSuccessful()){
@@ -274,9 +295,18 @@ public class MainViewModel extends ViewModel {
                     showError(NetworkUtil.onGitHubResponseError(response));
                     return;
                 }
-                if(response.body()!=null){
-                    mYourGists.postValue(response.body());
+                mYourGistsPagesLoaded++;
+                mMoreYourGistsAvailable = isNextLinkAvailable(response);
+
+                List<Gist> currentList = mYourGists.getValue();
+                if(currentList==null){
+                    currentList = new ArrayList<>();
                 }
+                if(response.body()!=null){
+                    currentList.addAll(response.body());
+                    //mDiscoveredGists.postValue(response.body());
+                }
+                mYourGists.postValue(currentList);
             }
 
             @Override
