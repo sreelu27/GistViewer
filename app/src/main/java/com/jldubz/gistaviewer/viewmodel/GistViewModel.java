@@ -8,6 +8,9 @@ import com.jldubz.gistaviewer.model.data.IGitHubService;
 import com.jldubz.gistaviewer.model.gists.Gist;
 import com.jldubz.gistaviewer.model.gists.GistComment;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 import androidx.lifecycle.LiveData;
@@ -258,6 +261,34 @@ public class GistViewModel extends ViewModel {
 
         //Show the progress bar in the comments section
         mCommentsProgressBarVisibility.postValue(View.VISIBLE);
+        mGitHubService.getGistCommentsById(mGistId,mGistCommentPrevPage).enqueue(new Callback<List<GistComment>>() {
+            @Override
+            public void onResponse(Call<List<GistComment>> call, Response<List<GistComment>> response) {
+                mCommentsProgressBarVisibility.postValue(View.GONE);
+                if(!response.isSuccessful()){
+                    showError(NetworkUtil.onGitHubResponseError(response));
+                    return;
+                }
+
+                mGistCommentPrevPage--;
+                List<GistComment> currentList = mComments.getValue();
+                if(currentList==null){
+                    currentList = new ArrayList<>();
+                }
+                if(response.body()!=null){
+                    List<GistComment> comments = new ArrayList<>(response.body());
+                    Collections.reverse(comments);
+                    currentList.addAll(comments);
+                }
+                mComments.postValue(currentList);
+            }
+
+            @Override
+            public void onFailure(Call<List<GistComment>> call, Throwable t) {
+                showError(t.getLocalizedMessage());
+            }
+        });
+
 
     }
 
@@ -303,6 +334,28 @@ public class GistViewModel extends ViewModel {
 
         //Show the progress bar in the comments section
         mCommentsProgressBarVisibility.postValue(View.VISIBLE);
+        mGitHubService.getGistCommentHeadersById(mGistId).enqueue(new Callback<Void>() {
+            @Override
+            public void onResponse(Call<Void> call, Response<Void> response) {
+                if(!response.isSuccessful()){
+                    showError(NetworkUtil.onGitHubResponseError(response));
+                    return;
+                }
+
+                String linkHeader = response.headers().get("Link");
+                if(linkHeader!=null){
+                    mGistCommentPrevPage = getLastPageNum(linkHeader);
+                }else{
+                    mGistCommentPrevPage = 0;
+                }
+                loadMoreComments();
+            }
+
+            @Override
+            public void onFailure(Call<Void> call, Throwable t) {
+                showError(t.getLocalizedMessage());
+            }
+        });
 
     }
 
